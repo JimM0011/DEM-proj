@@ -3,11 +3,11 @@ export default {
   data() {
     return {
       bibtex: [
-        "@article{junyaohu2023template,",
-        "    title={Academic Project Page Template Vue},",
-        "    author={Hu, Junyao},",
-        "    journal={GitHub},",
-        "    year={2023}",
+        "@article{ma2025decoupled,",
+        "  title={Decoupled Entropy Minimization},",
+        "  author={Jing, Ma and Hanlin, Li and Xiang, Xiang},",
+        "  journal={The Thirty-ninth Annual Conference on Neural Information Processing Systems},",
+        "  year={2025}",
         "}",
       ],
     }
