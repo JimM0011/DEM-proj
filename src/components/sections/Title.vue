@@ -9,14 +9,15 @@ const btn_color = '#444444'
 // 提供引导资料链接
 const buttons = [
   {
-    disabled: true,
+    disabled: false,
     name: "Paper",
+    link: "https://arxiv.org/abs/2511.03256",
     component: Document,
   },
   {
-    disabled: true,
+    disabled: false,
     name: "Code",
-    // link: "https://github.com/JunyaoHu/academic-project-page-template-vue",
+    link: "https://github.com/HAIV-Lab/DEM",
     component: Files,
   },
   {
@@ -45,7 +46,7 @@ const buttons = [
     <!-- 最新消息提示 -->
     <el-row justify="center">
       <el-col :span="24">
-        <el-alert title="🔥 This page is still under development." type="success" />
+        <el-alert title="🔥 The paper and code of DEM (NeurIPS 2025) are now available !" type="success" />
       </el-col>
     </el-row>
 
@@ -118,7 +119,7 @@ const buttons = [
     <el-row justify="center" style="margin-bottom: 20px;">
       <el-col :span="20">
         <el-row justify="center">
-          <a :href=button.link v-for="button in buttons">
+          <a :href=button.link v-for="button in buttons" target="_blank">
             <el-button class="guidance-button" size="default" :color="btn_color" :disabled="button.disabled" round>
               <el-icon :size="18">
                 <component :is="button.component" />

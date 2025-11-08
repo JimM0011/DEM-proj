@@ -5,8 +5,8 @@ export default {
       bibtex: [
         "@article{ma2025decoupled,",
         "  title={Decoupled Entropy Minimization},",
-        "  author={Jing, Ma and Hanlin, Li and Xiang, Xiang},",
-        "  journal={The Thirty-ninth Annual Conference on Neural Information Processing Systems},",
+        "  author={Ma, Jing and Li, Hanlin and Xiang, Xiang},",
+        "  journal={arXiv preprint arXiv:2511.03256},",
         "  year={2025}",
         "}",
       ],
