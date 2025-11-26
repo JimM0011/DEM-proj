@@ -21,19 +21,21 @@ const buttons = [
     component: Files,
   },
   {
-    disabled: true,
+    disabled: false,
     name: "Poster",
+    link: "https://neurips.cc/media/PosterPDFs/NeurIPS%202025/119274.png?t=1764056875.6099687",
     component: Picture,
   },
   {
-    disabled: true,
+    disabled: false,
     name: "Video",
-    // link: "https://www.bilibili.com/video/BV15XkgYiE73/",
+    link: "https://www.youtube.com/watch?v=KwTONHBT3nU",
     component: Film,
   },
   {
-    disabled: true,
+    disabled: false,
     name: "Slide",
+    link: "https://neurips.cc/media/neurips-2025/Slides/119274.pdf",
     component: DataAnalysis,
   },
 ]
